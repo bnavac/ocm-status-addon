@@ -31,7 +31,7 @@ type WorkStatus struct {
 
 	Spec   WorkStatusSpec `json:"spec,omitempty"`
 	Status RawStatus      `json:"status,omitempty"`
-	StatusDetails StatusDetails `json:"statusDetails,omitempty"`
+	StatusDetails StatusDetails `json:"statusDetails"`
 }
 
 // Workstatus spec
